@@ -11,8 +11,10 @@ inoremap jj <ESC>
 if (&t_Co == 256 || has('gui_running'))
   if ($TERM_PROGRAM == 'iTerm.app')
     colorscheme Tomorrow-Night-Eighties
+    set guifont=Source\ Code\ Pro:h16
   else
     colorscheme Tomorrow-Night-Eighties
+    set guifont=Source\ Code\ Pro:h16
   endif
 endif
 
