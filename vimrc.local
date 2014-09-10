@@ -20,6 +20,9 @@ let g:NERDTreeMouseMode = 2
 let g:NERDTreeWinSize = 40
 let NERDTreeIgnore=['\.swp$']
 
+" Show gutter for max line length
+let &colorcolumn=join(range(81,999),",")
+
 " highlight search
 "set hlsearch
 "nmap <leader>hl :let @/ = ""<CR>
