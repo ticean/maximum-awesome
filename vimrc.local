@@ -1,6 +1,17 @@
 set nocursorline " don't highlight current line
 
+"-----------------------
 " keyboard shortcuts
+"-----------------------
+nnoremap <f1> :BufExplorer<cr>
+nnoremap <f2> :NERDTreeToggle<cr>
+nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
+nnoremap <leader>g :Gbrowse<CR>
+"key mapping for window resizing
+nnoremap <S-Up> <C-W>+
+nnoremap <S-Down> <C-W>-
+nnoremap <S-Left> <C-w><
+nnoremap <S-Right> <C-w>>
 inoremap jj <ESC>
 
 " highlight search
