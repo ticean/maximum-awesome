@@ -24,8 +24,8 @@ let NERDTreeIgnore=['\.swp$']
 let &colorcolumn=join(range(81,999),",")
 
 " highlight search
-"set hlsearch
-"nmap <leader>hl :let @/ = ""<CR>
+set hlsearch
+nnoremap <silent> <CR> :noh<cr>
 
 " gui settings
 if (&t_Co == 256 || has('gui_running'))
