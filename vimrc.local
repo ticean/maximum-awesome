@@ -14,6 +14,12 @@ nnoremap <S-Left> <C-w><
 nnoremap <S-Right> <C-w>>
 inoremap jj <ESC>
 
+
+" NERDTree settings
+let g:NERDTreeMouseMode = 2
+let g:NERDTreeWinSize = 40
+let NERDTreeIgnore=['\.swp$']
+
 " highlight search
 "set hlsearch
 "nmap <leader>hl :let @/ = ""<CR>
