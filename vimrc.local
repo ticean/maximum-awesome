@@ -1,4 +1,5 @@
 set nocursorline " don't highlight current line
+set nowrap " no wrap by default
 
 "-----------------------
 " keyboard shortcuts
@@ -13,7 +14,6 @@ nnoremap <S-Down> <C-W>-
 nnoremap <S-Left> <C-w><
 nnoremap <S-Right> <C-w>>
 inoremap jj <ESC>
-
 
 " NERDTree settings
 let g:NERDTreeMouseMode = 2
